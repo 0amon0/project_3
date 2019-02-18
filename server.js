@@ -8,9 +8,6 @@ const server = http.createServer(app);
 
 
 
-
-//postmanze maq sul datestili marto :
-
 server.listen(port, ()=>{
     console.log('1300 port')
 });

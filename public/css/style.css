@@ -1,0 +1,33 @@
+.main-header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #3c5897;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-header > button {
+    padding: 8px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.products-container {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px;
+    background: #f9f9f9;
+}
+.user-form {
+    width: 100%;
+    margin-bottom: 60px;
+}

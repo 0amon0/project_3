@@ -16,16 +16,17 @@ router.get('/', (req, res, next) => {
                 return {
                     name: doc.name,
                     price: doc.price,
-                    _id: doc._id,
-                    request: {
-                        type: 'GET',
-                        url: 'http://localhost:1300/products/'+doc._id
-                    }
+                    // _id: doc._id,
+                    // request: {
+                    //     type: 'GET',
+                    //     url: 'http://localhost:1300/products/'+doc._id
+                    // }
                 }
             })
         };
        
         // if(docs.length>=0) {
+            // console.log(response)
             res.status(200).json(response);
         // } else {
         //     res.status(404).json({
