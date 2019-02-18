@@ -1,8 +1,11 @@
+body {
+    background: rgb(237, 248, 136);
+}
 .main-header {
     width: 100%;
     position: fixed;
     height: 60px;
-    background: #3c5897;
+    background: rgb(10, 83, 10);
     top: 0px;
     left: 0px;
     display: flex;
@@ -13,11 +16,16 @@
     padding: 8px 10px;
     margin-right: 10px;
     cursor: pointer;
+    background: #a7f351;
+    border: none;
+    border-radius: 20px;
+    outline: none;
 }
 .products-container {
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .product {
@@ -25,9 +33,28 @@
     display: inline-block;
     border: 1px solid black;
     padding: 15px;
-    background: #f9f9f9;
+    background: #a7f351;
+    border-radius: 20px;
 }
 .user-form {
     width: 100%;
     margin-bottom: 60px;
+}
+
+#email, #password, #productName, #productPrice {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(10, 83, 10);
+    font-size: 18px;
+    padding: 7px;
+    outline: none;
+}
+
+#insertProductBtn, #registerBtn {
+    height: 48px;
+    border-radius: 10px;
+    background: #a7f351;
+    border : none;
+    border: 2px solid rgb(10, 83, 10);
+    outline: none;
 }
